@@ -2,20 +2,20 @@ package com.engeto.guests;
 
 public class Room {
     private String numberRoom;
-    private String numberOfBed;
+    private int numberOfBed;
     private boolean balocony;
     private boolean seaWiew;
-    private String price;
+    private double pricePerNight;
 
     //konstruktor
 
-    public Room(String numberRoom, String numberOfBed,
-                boolean balocony, boolean seaWiew, String price) {
+    public Room(String numberRoom, int numberOfBed,
+                boolean balocony, boolean seaWiew, double pricePerNight) {
         this.numberRoom = numberRoom;
         this.numberOfBed = numberOfBed;
         this.balocony = balocony;
         this.seaWiew = seaWiew;
-        this.price = price;
+        this.pricePerNight = pricePerNight;
     }
     //endkonstruktor
 
@@ -29,11 +29,11 @@ public class Room {
         this.numberRoom = numberRoom;
     }
 
-    public String getNumberOfBed() {
+    public int getNumberOfBed() {
         return numberOfBed;
     }
 
-    public void setNumberOfBed(String numberOfBed) {
+    public void setNumberOfBed(int numberOfBed) {
         this.numberOfBed = numberOfBed;
     }
 
@@ -53,12 +53,12 @@ public class Room {
         this.seaWiew = seaWiew;
     }
 
-    public String getPrice() {
-        return price;
+    public double getPrice() {
+        return pricePerNight;
     }
 
-    public void setPrice(String price) {
-        this.price = price;
+    public void setPrice(double price) {
+        this.pricePerNight = price;
     }
     //end pristupova metoda
 
