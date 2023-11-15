@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f46321cf-29ed-4e8d-bf81-76cb5c4890e6" name="Changes" comment="Oprava - podle lekce03 nahravam zmeny">
-      <change afterPath="$PROJECT_DIR$/src/com/engeto/guests/BookingManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f46321cf-29ed-4e8d-bf81-76cb5c4890e6" name="Changes" comment="Ukol 03 Lekce">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/engeto/guests/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/engeto/guests/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/engeto/guests/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/engeto/guests/Room.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +33,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;lekce3&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lucac/Work/ideaProjects/lekce02kol&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "lekce3",
+    "last_opened_file_path": "C:/Users/lucac/Work/ideaProjects/lekce02kol",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -76,19 +73,28 @@
       <option name="project" value="LOCAL" />
       <updated>1696523235045</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ukol 03 Lekce">
+      <option name="closed" value="true" />
+      <created>1698584239499</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698584239499</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Oprava - podle lekce03 nahravam zmeny" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oprava - podle lekce03 nahravam zmeny" />
+    <MESSAGE value="Ukol 03 Lekce" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ukol 03 Lekce" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>75</line>
+          <line>72</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

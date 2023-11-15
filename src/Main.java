@@ -3,9 +3,7 @@ import com.engeto.guests.BookingManager;
 import com.engeto.guests.Guest;
 import com.engeto.guests.Room;
 
-import java.awt.print.Book;
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
@@ -25,15 +23,14 @@ public class Main {
     }
 
     public static void printFirst8RecreationBookings() {
-        String output = "Prvnich 8 rekreacnich rezervaci:\n";
+        StringBuilder output = new StringBuilder("Prvnich 8 rekreacnich rezervaci:\n");
         int max = 8;
         int current = 0;
         List<Booking> bookingList = manager.getBookings();
-        for(int i = 0; i < bookingList.size(); i++) {
-            Booking booking =  bookingList.get(i);
+        for (Booking booking : bookingList) {
             if (booking.getTypeOfVacation().equals("recreational") && current < max) {
                 current++;
-                output += booking.toString();
+                output.append(booking);
             }
         }
         System.out.println(output);
@@ -42,22 +39,21 @@ public class Main {
     public static void printGuestStatistic() {
         int pocet = 0;
         List<Booking> bookingList = manager.getBookings();
-        for(int i = 0; i < bookingList.size(); i++) {
-            Booking booking =  bookingList.get(i);
+        for (Booking booking : bookingList) {
             if (booking.pocetHostu() == 1) {
                 pocet++;
 
             }
         }
-        String output = "Celkovy pocet rezervaci s 1 hostem: " + String.valueOf(pocet);
+        String output = "Celkovy pocet rezervaci s 1 hostem: " + pocet;
         System.out.println(output);
 
         pocet = bookingList.stream().filter(booking -> booking.pocetHostu() == 2).toList().size();
-        output = "Celkovy pocet rezervaci s 2 hosty: " + String.valueOf(pocet);
+        output = "Celkovy pocet rezervaci s 2 hosty: " + pocet;
         System.out.println(output);
 
         pocet = bookingList.stream().filter(booking -> booking.pocetHostu() > 2).toList().size();
-        output = "Celkovy pocet rezervaci s vic jak 2 hosty: " + String.valueOf(pocet);
+        output = "Celkovy pocet rezervaci s vic jak 2 hosty: " + pocet;
         System.out.println(output);
 
     }
